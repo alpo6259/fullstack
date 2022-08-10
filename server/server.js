@@ -1,6 +1,6 @@
 const http = require('http');
 const controller = require('./socketInit');
-require('./dbMongo/mongoose');
+
 const app = require('./app');
 
 const PORT = process.env.PORT || 5000;
